@@ -1,0 +1,100 @@
+@import url(../fonts/PermanentMarker-Regular.ttf);
+@import url(../fonts/SedgwickAveDisplay-Regular.ttf);
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 04px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    }
+}
+
+.top-navigation{
+    list-style: none;
+    padding: 2%;
+    background-color:#F2507B;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    position: none;
+    padding-left: 16%;
+    padding-right:0%;
+}
+
+.top-navigation li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+    
+}
+
+.top-navigation li{
+    display: inline-block;
+    text-align: center;
+}
+
+.top-navigation li a:hover{
+    background-color:#F2507B;
+}
+
+h1{
+    font-size:xx-large;
+    padding: 12px; 
+
+}
+
+body{
+    font-size: 25px;
+    background-color: #F2CB05;
+    font-family: 'permanentMarker';
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+    background-color: #055BA6;
+    color:white;
+}
